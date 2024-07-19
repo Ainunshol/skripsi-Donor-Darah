@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF2F4">
+
+    <LinearLayout
+        android:id="@+id/syaratdonor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#EDF2F4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Syarat Donor Darah"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/syaratTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apa saja syarat untuk mendonorkan darah?\n\nSehat jasmani dan rohani\nUsia 17 sampai dengan 65 tahun\nBerat badan minimal 45 kg\nTekanan darah:\n  - sistole 100 - 170\n  - diastole 70 - 100\nKadar haemoglobin 12,5g% s/d 17,0g%\nInterval donor minimal 60 sejak donor darah sebelumnya. Khusus perempuan, maksimal hanya bisa donor darah 4 kali dalam setahun\n\nAnda tidak dapat mendonorkan darah apabila:\n  - sedang sakit,\n  - sedang rutin mengonsumsi obat,\n  - sedang menjalani perawatan di rumah sakit,\n  - mendapatkan tattoo atau tindik pada setahun terakhir,\n  - sedang hamil atau menstruasi,\n  - menerima transfusi darah atau transplantasi organ"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
